@@ -4,10 +4,19 @@ import Header from '../Header/Header';
 import Bar from '../Bar/Bar';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    margin: 0,
+    width: '100%',
+  }
+}));
 
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
+    <div className={classes.root}>
       <Grid container direction="column" justify="center" spacing={2}>
         <Grid item xs>
           <Paper>

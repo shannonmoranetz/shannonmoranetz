@@ -1,10 +1,10 @@
 import React from 'react';
-import BioCards from '../BioCards/BioCards';
+import HomeCards from '../HomeCards/HomeCards';
 
 function CardContainer() {
   return (
     <div className="CardContainer">
-      <BioCards/>
+      <HomeCards/>
     </div>
   );
 }

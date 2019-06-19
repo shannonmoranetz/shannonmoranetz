@@ -1,7 +1,7 @@
 import React from 'react';
 import CardContainer from '../CardContainer/CardContainer';
 import Header from '../Header/Header';
-import AppBar from '../AppBar/AppBar';
+import Bar from '../Bar/Bar';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
@@ -15,7 +15,7 @@ function App() {
           </Paper>
         </Grid>
         <Grid item xs>
-          <AppBar/>
+          <Bar/>
         </Grid>
         <Grid item xs>
           <Paper>

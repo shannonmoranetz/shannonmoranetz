@@ -1,6 +1,7 @@
 import React from 'react';
-import About from '../About/About';
+import CardContainer from '../CardContainer/CardContainer';
 import Header from '../Header/Header';
+import AppBar from '../AppBar/AppBar';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
@@ -13,9 +14,12 @@ function App() {
             <Header/>
           </Paper>
         </Grid>
-        <Grid item xs>  
+        <Grid item xs>
+          <AppBar/>
+        </Grid>
+        <Grid item xs>
           <Paper>
-            <About/>
+            <CardContainer/>
           </Paper>
         </Grid>
       </Grid>

@@ -26,8 +26,6 @@ class Bar extends Component {
           <Toolbar className={classes.toolbar}>
             <Button size="large" onClick={(e) => this.handleClick(e)} color="inherit">Home</Button>
             <Button size="large" onClick={(e) => this.handleClick(e)} color="inherit">Coding</Button>
-            <Button size="large" onClick={(e) => this.handleClick(e)} color="inherit">Art</Button>
-            <Button size="large" onClick={(e) => this.handleClick(e)} color="inherit">Music</Button>
           </Toolbar>
         </AppBar>
       </div>

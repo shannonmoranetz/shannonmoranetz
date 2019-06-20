@@ -21,9 +21,7 @@ function App() {
     <div className={classes.root}>
       <Grid container direction="column" justify="center" spacing={1}>
         <Grid item xs>
-          {/* <Paper> */}
-            <Header/>
-          {/* </Paper> */}
+          <Header/>
         </Grid>
         <Grid item xs>
           <Bar/>

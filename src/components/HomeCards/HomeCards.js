@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { homeCardData } from './homeCardData';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -23,42 +24,19 @@ function HomeCards() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2} align="center">
-        <Grid item xs>
-          <Card className={classes.card}>
-            <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg"/>
-            <CardContent>
-              <Typography color="textSecondary">Card content</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs>
-          <Card className={classes.card}>
-            <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg"/>
-            <CardContent>
-              <Typography color="textSecondary">Card content</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs>
-          <Card className={classes.card}>
-            <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg"/>
-            <CardContent>
-              <Typography color="textSecondary">Card content</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs>
-          <Card className={classes.card}>
-            <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg"/>
-            <CardContent>
-              <Typography color="textSecondary">Card content</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
+        { homeCardData.map((datum) => {
+          return (
+            <Grid item xs>
+              <Card className={classes.card}>
+                <CardHeader title={datum.title} subheader={datum.subheader}/>
+                <CardMedia className={classes.media} image={datum.image}/>
+                <CardContent>
+                  <Typography color="textSecondary">{datum.content}</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          )
+        }) }
       </Grid>
     </div>
   );

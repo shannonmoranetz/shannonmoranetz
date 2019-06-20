@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/styles';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
+import Toolbar from '@material-ui/core/Toolbar';
 
 const styles = {
   root: {
@@ -11,23 +10,15 @@ const styles = {
   },
   toolbar: {
     justifyContent: 'center',
-  }
+  },
 };
 
 class Bar extends Component {
-  constructor() {
-    super();
-    this.state = {
-      view: 'HOME'
-    }
-  }
-
   handleClick = (e) => {
     this.props.retrieveView(e.target.innerText)
   }
 
   render() {
-    const { view } = this.state;
     const { classes } = this.props;
     return (
       <div className={classes.root}>

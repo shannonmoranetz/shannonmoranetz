@@ -1,12 +1,11 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -29,9 +28,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary">
-                Card content
-              </Typography>
+              <Typography color="textSecondary">Card content</Typography>
             </CardContent>
           </Card>
         </Grid>
@@ -40,9 +37,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary">
-                Card content
-              </Typography>
+              <Typography color="textSecondary">Card content</Typography>
             </CardContent>
           </Card>
         </Grid>
@@ -51,9 +46,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary">
-                Card content
-              </Typography>
+              <Typography color="textSecondary">Card content</Typography>
             </CardContent>
           </Card>
         </Grid>
@@ -62,9 +55,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary">
-                Card content
-              </Typography>
+              <Typography color="textSecondary">Card content</Typography>
             </CardContent>
           </Card>
         </Grid>

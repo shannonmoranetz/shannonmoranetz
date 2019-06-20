@@ -3,9 +3,10 @@ import HomeCards from '../HomeCards/HomeCards';
 
 class CardContainer extends Component {
   render() {
+    const { view } = this.props;
     return (
       <div className="CardContainer">
-       { this.props.view === 'HOME' && <HomeCards/> }
+       { view === 'HOME' && <HomeCards/> }
       </div>
     );
   }

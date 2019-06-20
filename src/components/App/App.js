@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
+import { withStyles } from '@material-ui/styles';
+import Bar from '../Bar/Bar';
 import CardContainer from '../CardContainer/CardContainer';
 import Header from '../Header/Header';
-import Bar from '../Bar/Bar';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import { withStyles } from '@material-ui/styles';
 
 const styles = {
   root: {
     margin: 0,
     paddingLeft: 40,
     paddingRight: 40,
-    paddingTop: 10
-  }
+    paddingTop: 10,
+  },
 }
 
 class App extends Component {

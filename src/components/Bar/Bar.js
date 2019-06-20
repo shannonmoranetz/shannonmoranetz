@@ -23,7 +23,7 @@ class Bar extends Component {
   }
 
   handleClick = (e) => {
-    this.setState({ view: e.target.innerText })
+    this.props.retrieveView(e.target.innerText)
   }
 
   render() {

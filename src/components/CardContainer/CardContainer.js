@@ -3,9 +3,7 @@ import HomeCards from '../HomeCards/HomeCards';
 
 class CardContainer extends Component {
 
-
-
-
+  
   render() {
     return (
       <div className="CardContainer">

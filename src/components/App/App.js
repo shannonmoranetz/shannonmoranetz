@@ -7,10 +7,10 @@ import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    margin: 0,
-    width: '100%',
-  }
+  // root: {
+  //   margin: 0,
+  //   padding: 0,
+  // }
 }));
 
 function App() {

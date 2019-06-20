@@ -26,13 +26,13 @@ function HomeCards() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Grid container spacing={2} className={classes.grid}>
+      <Grid container spacing={2} align="center" className={classes.grid}>
         <Grid item xs>
           <Card className={classes.card}>
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary" gutterBottom>
+              <Typography color="textSecondary">
                 Card content
               </Typography>
             </CardContent>
@@ -43,7 +43,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary" gutterBottom>
+              <Typography color="textSecondary">
                 Card content
               </Typography>
             </CardContent>
@@ -54,7 +54,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary" gutterBottom>
+              <Typography color="textSecondary">
                 Card content
               </Typography>
             </CardContent>
@@ -65,7 +65,7 @@ function HomeCards() {
             <CardHeader title="Card title" subheader="Card subtitle"/>
             <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg" title="Shannon"/>
             <CardContent>
-              <Typography color="textSecondary" gutterBottom>
+              <Typography color="textSecondary">
                 Card content
               </Typography>
             </CardContent>

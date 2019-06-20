@@ -24,9 +24,9 @@ function HomeCards() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2} align="center">
-        { homeCardData.map((datum) => {
+        { homeCardData.map((datum, i) => {
           return (
-            <Grid item xs>
+            <Grid item xs key={i}>
               <Card className={classes.card}>
                 <CardHeader title={datum.title} subheader={datum.subheader}/>
                 <CardMedia className={classes.media} image={datum.image}/>

@@ -17,16 +17,13 @@ const useStyles = makeStyles(theme => ({
     height: 45,
     paddingTop: '56.25%',
   },
-  grid: {
-
-  }
 }));
 
 function HomeCards() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Grid container spacing={2} align="center" className={classes.grid}>
+      <Grid container spacing={2} align="center">
         <Grid item xs>
           <Card className={classes.card}>
             <CardHeader title="Card title" subheader="Card subtitle"/>

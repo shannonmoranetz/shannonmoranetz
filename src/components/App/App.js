@@ -9,9 +9,9 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(theme => ({
   root: {
     margin: 0,
-    paddingLeft: 60,
-    paddingRight: 60,
-    paddingTop: 20
+    paddingLeft: 40,
+    paddingRight: 40,
+    paddingTop: 10
   }
 }));
 
@@ -19,11 +19,11 @@ function App() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Grid container direction="column" justify="center" spacing={2}>
+      <Grid container direction="column" justify="center" spacing={1}>
         <Grid item xs>
-          <Paper>
+          {/* <Paper> */}
             <Header/>
-          </Paper>
+          {/* </Paper> */}
         </Grid>
         <Grid item xs>
           <Bar/>

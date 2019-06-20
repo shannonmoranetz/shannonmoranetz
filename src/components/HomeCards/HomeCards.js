@@ -10,7 +10,7 @@ import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   card: {
-    width: 260,
+    width: 240,
     display: 'inline-block',
   },
   media: {
@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
     paddingTop: '56.25%',
   },
   grid: {
-    
+
   }
 }));
 

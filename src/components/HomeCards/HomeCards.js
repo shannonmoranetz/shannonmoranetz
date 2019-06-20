@@ -26,7 +26,7 @@ function HomeCards() {
         <Grid item xs>
           <Card className={classes.card}>
             <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg" title="Shannon"/>
+            <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg"/>
             <CardContent>
               <Typography color="textSecondary">Card content</Typography>
             </CardContent>
@@ -35,7 +35,7 @@ function HomeCards() {
         <Grid item xs>
           <Card className={classes.card}>
             <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg" title="Shannon"/>
+            <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg"/>
             <CardContent>
               <Typography color="textSecondary">Card content</Typography>
             </CardContent>
@@ -44,7 +44,7 @@ function HomeCards() {
         <Grid item xs>
           <Card className={classes.card}>
             <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg" title="Shannon"/>
+            <CardMedia className={classes.media} image="https://i.imgur.com/9yoT99d.jpg"/>
             <CardContent>
               <Typography color="textSecondary">Card content</Typography>
             </CardContent>
@@ -53,7 +53,7 @@ function HomeCards() {
         <Grid item xs>
           <Card className={classes.card}>
             <CardHeader title="Card title" subheader="Card subtitle"/>
-            <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg" title="Shannon"/>
+            <CardMedia className={classes.media} image="https://i.imgur.com/WtvMJa2.jpg"/>
             <CardContent>
               <Typography color="textSecondary">Card content</Typography>
             </CardContent>

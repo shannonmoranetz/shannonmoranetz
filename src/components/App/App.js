@@ -6,8 +6,6 @@ import Header from '../Header/Header';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
-// git test comment
-
 const styles = {
   root: {
     margin: 0,
